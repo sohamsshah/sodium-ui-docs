@@ -17,6 +17,7 @@
 
 .nav-pills{
     display:flex;
+    align-items: center;
 }
 
 .nav-pills div{
