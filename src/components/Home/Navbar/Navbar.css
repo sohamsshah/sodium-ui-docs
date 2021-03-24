@@ -11,7 +11,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    padding: 2rem 3.5rem;
+    padding: 1.5rem 3.5rem;
     font-weight: bolder;
     font-size: 1.2rem;
 }
@@ -26,13 +26,15 @@
 }
 
 .nav-link-active{
-    color: var(--primary-color);;
+    color: var(--primary-color);
 }
 
-.nav-link{
+.nav-link a{
     cursor:pointer;
+    text-decoration: none;
+    color:var(--secondary-color);
 }
-.nav-link:hover{
+.nav-link a:hover{
     color: var(--primary-color);
 }
 

@@ -11,9 +11,10 @@
 .footer{
     color: var(--general-color);
     background-color: var(--general-color-dark);
-    padding: 4rem;
+    padding: 2rem 4rem;
     text-align: center;
     font-size: 1.1rem;
+
 }
 
 .footerLink{
