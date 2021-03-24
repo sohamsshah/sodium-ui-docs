@@ -4,16 +4,21 @@ import "./Navbar.css"
 export default function Navbar(){
     return(
         <nav className="navbar">
-            <div className="navbar-pages">
-                <div className="nav-link nav-link-active">
-                    Home
+            <div className="nav-pills">
+                <div className="nav-brand">
+                    Sodium-UI
+                </div>
+            </div>
+            <div className="nav-pills">
+            <div className="nav-link">
+                    Docs    
                 </div>
                 <div className="nav-link">
-                    Getting Started
+                    Community
+                </div>
+                <div className="nav-link">
+                    Github
                 </div >
-                <div className="nav-link">
-                    Components
-                </div>
             </div>
         </nav>
     )
