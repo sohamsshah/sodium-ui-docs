@@ -1,0 +1,29 @@
+:root{
+    --primary-color: #443d70;
+    --primary-color-darker: #2f2a4d;
+    --secondary-color:#766CA4;
+    --contrast-color: #5ce1e6;
+    --general-color: #F4ECFF;
+    --general-color-dark:#36333f;
+    --pink-tinge: #ff80d5;
+}
+.community{
+    padding:4rem 4rem;
+    background-color: var(--contrast-color);
+    color: var(--general-color-dark);
+    text-align: center;
+}
+
+.join h2{
+    font-size: 2.5rem;
+    font-family: 'Anton', sans-serif;
+}
+
+.join {
+    padding:1rem 20%;
+}
+
+.join p{
+    padding-top:1rem;
+}
+

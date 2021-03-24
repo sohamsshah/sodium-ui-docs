@@ -16,29 +16,29 @@
 } 
 
 
-.hero-img{
+.hero__img{
     width: 15%;
     height:15%;
 }
 
-.hero-brand{
+.hero__brand{
     font-size: 3rem;
     margin-top: -1rem;
     font-family: 'Anton', sans-serif;
     letter-spacing: 2px; 
 }
 
-.hero-text{
+.hero__text{
     padding: 1rem 20%;
     font-size: 1.2rem;
 }
 
-.hero-text span{
+.hero__text span{
     font-weight: bolder;
     color: var(--pink-tinge)
 }
 
-.hero-btn{
+.hero__btn{
     color: var(--pink-tinge);
     border: solid 1px var(--pink-tinge);
     background-color: var(--primary-color);
@@ -50,16 +50,16 @@
     cursor: pointer;
 }
 
-.hero-btn:hover{
+.hero__btn:hover{
     background-color: var(--pink-tinge);
     color: var(--general-color);
 }
 
-.hero-btn:focus{
+.hero__btn:focus{
     outline:none;
 }
 
-.hero-code{
+.hero__code{
     color: var(--contrast-color);
     background-color: var(--primary-color);
     border: solid 1px var(--secondary-color);

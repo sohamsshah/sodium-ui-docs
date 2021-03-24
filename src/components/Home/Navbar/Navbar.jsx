@@ -7,7 +7,7 @@ export default function Navbar(){
             <div className="nav-pills">
             <img style={{width:"50px", height:"50px"}}src="/sodium_main.png"></img>
                 <div className="nav-brand">
-                    Sodium-UI 
+                    Sodium UI 
                 </div>
             </div>
             <div className="nav-pills">

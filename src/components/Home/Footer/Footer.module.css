@@ -1,0 +1,27 @@
+:root{
+    --primary-color: #443d70;
+    --primary-color-darker: #2f2a4d;
+    --secondary-color:#766CA4;
+    --contrast-color: #5ce1e6;
+    --general-color: #F4ECFF;
+    --general-color-dark:#36333f;
+    --pink-tinge: #ff80d5;
+}
+
+.footer{
+    color: var(--general-color);
+    background-color: var(--general-color-dark);
+    padding: 4rem;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.footerLink{
+    color:var(--general-color);
+    font-weight: 800;
+}
+
+.footerLink:visited{
+    color: var(--general-color);
+}
+

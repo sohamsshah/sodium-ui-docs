@@ -9,6 +9,7 @@
     color: var(--secondary-color);
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     padding: 2rem 3.5rem;
     font-weight: bolder;
@@ -21,7 +22,7 @@
 }
 
 .nav-pills div{
-    margin: 0 1rem;
+    padding: 0 1rem;
 }
 
 .nav-link-active{
