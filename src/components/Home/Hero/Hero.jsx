@@ -1,5 +1,6 @@
 import React from "react"
 import styles from "./Hero.module.css"
+import {Button} from "sodium-ui"
 
 export default function Hero(){
     return(
@@ -13,7 +14,7 @@ export default function Hero(){
             Web Component library to build elegant and <span>React</span>(ive) Apps.  
             </div>
             <div>
-                <button className={styles.hero__btn}> Get Started</button>
+                <Button className={styles.hero__btn}> Get Started</Button>
                 <span className={styles.hero__code}>$ npm i sodium-ui</span>
             </div> 
           </div>
