@@ -7,13 +7,17 @@
 
 .navbar{
     color: var(--secondary-color);
+    position:sticky;
+    top:0;
+    background-color: white;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    padding: 1.5rem 3.5rem;
+    padding: 1rem 3.5rem;
     font-weight: bolder;
     font-size: 1.2rem;
+    border-bottom: solid 0.5px rgb(33, 33, 33,0.2);
 }
 
 .nav-pills{

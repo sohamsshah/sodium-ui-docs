@@ -1,12 +1,13 @@
 import React from "react"
 import Navbar from "./../Home/Navbar/Navbar"
 import Footer from "./../Home/Footer/Footer"
+import MainPage from "./../Docs/MainPage/MainPage"
 
 export default function Docs(){
     return(
         <div>
             <Navbar />
-            <Footer />
+            <MainPage />
         </div>
     )
 }

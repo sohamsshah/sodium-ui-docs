@@ -1,4 +1,17 @@
 .main{
     display: flex;
+    height:100vh;
+    
+}
+
+.content{
+    display:flex;
+    flex-direction: column;
     justify-content: space-between;
+    width:100%;
+}
+
+.mainContent{
+    padding:2rem;
+    padding-right:25%;
 }
