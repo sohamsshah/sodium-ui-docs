@@ -8,8 +8,6 @@ export default function Sidebar(){
         <div className={styles.sidebar}>
             <ul>
             <li><a href="/docs/button">Getting Started</a></li>
-    
-            
             </ul>
             
         </div>

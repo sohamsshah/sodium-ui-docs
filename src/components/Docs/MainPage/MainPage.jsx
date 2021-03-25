@@ -5,7 +5,6 @@ import {BrowserRouter, Route,  Switch} from "react-router-dom"
 import GettingStarted from "./../Content/GettingStarted/GettingStarted"
 import ButtonPage from "./../Content/ButtonPage/ButtonPage"
 import styles from "./MainPage.module.css"
-import { useHistory } from 'react-router'
 
 
 export default function MainPage(){

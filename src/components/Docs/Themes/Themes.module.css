@@ -1,0 +1,59 @@
+:root{
+    --primary-color: #443d70;
+    --primary-color-darker: #2f2a4d;
+    --secondary-color:#766CA4;
+    --contrast-color: #5ce1e6;
+    --general-color: #F4ECFF;
+    --general-color-dark:#36333f;
+    --pink-tinge: #ff80d5;
+}
+
+.heading1{
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+    font-size: 2.5rem;
+    margin-top:2rem;
+    color: var(--general-color-dark);
+}
+
+.heading2{
+    font-size: 2rem;
+    line-height: 1.2;
+    margin-top:2rem;
+    color: var(--general-color-dark);
+}
+
+.paragraph{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-top:0.5rem;
+    color: var(--general-color-dark);
+}
+
+.lead{
+    font-size: 1rem;
+    font-weight: 300;
+    margin-top:0.5rem;
+    color: var(--general-color-dark);
+}
+
+.code{
+    font-size: 1rem;
+    padding: 0 0.2rem;
+    color: #e83e8c;
+    word-wrap: break-word;
+    font-family: 'Fira Code', monospace;
+}
+
+.codeblock{
+    background-color: var(--general-color-dark);
+    color: var(--general-color);
+    padding:1rem;
+    border-radius:4px;
+    margin: 1rem 0;
+    color: var(--general-color);
+}
+
+
+
+
