@@ -30,24 +30,3 @@ export default function Features(){
         </div>
     )
 }
-
-{/* <Card style={{padding:"1rem", width:"250px", minHeight:"250px", margin:"2rem"}}>
-                <Card.Title style={{paddingBottom:"1rem"}}>Its Simple</Card.Title>
-                <Card.Text>
-                    Sodium UI is simple and modular web component library for blazingly fast web development. Just install and start importing the components that your app needs!
-                </Card.Text>
-                </Card>
-                
-                <Card style={{padding:"1rem", width:"250px", height:"250px", margin:"2rem"}}>
-                <Card.Title style={{paddingBottom:"1rem"}}>Accessible</Card.Title>
-                <Card.Text>
-                The React component model gives us more control over form and function of each component. All components are crafted following the WAI-ARIA rules.
-                </Card.Text>
-                </Card>
-
-                <Card style={{padding:"1rem", width:"250px", height:"250px", margin:"2rem"}}>
-                <Card.Title style={{paddingBottom:"1rem"}}>Composable</Card.Title>
-                <Card.Text>
-                    Aim is to provide components for your app so you can be saved from developing everything from scratch; and ofcourse, it supports manual styling!
-                </Card.Text>
-                </Card> */}

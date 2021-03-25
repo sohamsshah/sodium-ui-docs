@@ -21,27 +21,32 @@
 
 .sidelist{
    padding-left: 5rem;
-
 }
 
 .sidelist li a{
     color: var(--general-color-dark);
     text-decoration: none;
+    transition:0.2s;
+    
 }
 
 .sidelist li{
     list-style-type: none;
     width:80%;
     padding:0.2rem 1rem;
+    transition:0.2s;
 }
 
-.sidelist li:hover{
+.sidelist li:hover > a{
     background-color: var(--secondary-color);
+    color:white;
+    width:80%;
+    padding:0.2rem 0.5rem;
+    transition:0.5s;
+    border-radius: 4px;
 }
 
-.sidelist li a:link{
-    color: var(--general-color);
-}
+
 
 .sidelistHeading{
     letter-spacing: 2px;
