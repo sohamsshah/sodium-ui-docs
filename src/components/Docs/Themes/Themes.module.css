@@ -17,7 +17,7 @@
 }
 
 .heading2{
-    font-size: 2rem;
+    font-size: 1.8rem;
     line-height: 1.2;
     margin-top:2rem;
     color: var(--general-color-dark);
@@ -52,6 +52,15 @@
     border-radius:4px;
     margin: 1rem 0;
     color: var(--general-color);
+}
+
+.list{
+    list-style-type: none;
+    margin-top:1rem;
+}
+
+.link{
+    color: var(--general-color-dark);
 }
 
 
