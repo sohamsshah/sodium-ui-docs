@@ -8,6 +8,8 @@ import FeaturesPage from "./../Content/FeaturesPage/FeaturesPage"
 import AlertPage from "./../Content/AlertPage/AlertPage"
 import AvatarPage from "./../Content/AvatarPage/AvatarPage"
 import ModalPage from "./../Content/ModalPage/ModalPage"
+import ToastPage from "./../Content/ToastPage/ToastPage"
+import TypographyPage from "./../Content/TypographyPage/TypographyPage"
 import styles from "./MainPage.module.css"
 
 
@@ -28,7 +30,9 @@ export default function MainPage(){
             <Route path="/docs/avatar" exact component={AvatarPage} />
             <Route path="/docs/button" exact component={ButtonPage} />
             <Route path="/docs/modal" exact component={ModalPage} />
-            
+            <Route path="/docs/toast" exact component={ToastPage} />
+            <Route path="/docs/typography" exact component={TypographyPage} />
+
             
             </Switch>
             </BrowserRouter>
