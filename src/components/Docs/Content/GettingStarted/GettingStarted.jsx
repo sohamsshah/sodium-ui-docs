@@ -29,8 +29,8 @@ export default function MainPage(){
             <h2 className={themes.heading2}>Importing Components</h2>
             <p className={themes.lead}>You can import components directly from Sodium UI. An example demostrating the same is as below:</p>
             
-            <div className={themes.code}>
-            <SyntaxHighlighter language="javascript" customStyle={{textAlign:""}}>
+            <div>
+            <SyntaxHighlighter language="jsx" customStyle={{textAlign:""}}>
               {importComponents}  
             </SyntaxHighlighter>  
             </div>

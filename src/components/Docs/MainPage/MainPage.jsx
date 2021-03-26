@@ -37,7 +37,7 @@ export default function MainPage(){
             </Switch>
             </BrowserRouter>
             </div>
-            <Footer />
+            
             </div>
             
         </div>

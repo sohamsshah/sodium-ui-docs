@@ -9,7 +9,7 @@
 }
 
 .footer{
-    margin-top:2rem;
+    /* margin-top:2rem; */
     color: var(--general-color);
     background-color: var(--general-color-dark);
     padding: 2rem 4rem;
