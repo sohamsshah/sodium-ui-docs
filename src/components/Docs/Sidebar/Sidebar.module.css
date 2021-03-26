@@ -24,7 +24,7 @@
 }
 
 .sidelist li a{
-    color: var(--general-color-dark);
+    color: var(--secondary-color);
     text-decoration: none;
     transition:0.2s;
     
@@ -38,7 +38,7 @@
 }
 
 .sidelist li:hover > a{
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     color:white;
     width:80%;
     padding:0.2rem 0.5rem;
