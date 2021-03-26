@@ -22,6 +22,7 @@ const dismissibleAlert =
 <Alert variant="danger" dismissible>This is a Danger Alert</Alert>
 <Alert variant="info" dismissible>This is an Info Alert</Alert>
 <Alert variant="dark" dismissible>This is a Dark Alert</Alert>`
+
 function AlertPage() {
     return (
         <div>
