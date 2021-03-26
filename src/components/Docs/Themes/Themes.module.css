@@ -63,6 +63,37 @@
     color: var(--general-color-dark);
 }
 
+.contentNavigationNext p{
+    text-align: right;
+}
+
+
+.contentNavigation button{
+    background: none;
+    border:none;
+}
+
+.contentNavigation a{
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    text-decoration: none;  
+}
+
+.contentNavigation a:hover{
+    color: var(--primary-color);
+    text-decoration: underline;
+       
+}
+
+.contentNavigation{
+    color: var(--general-color-dark);
+    padding:2rem 0;
+    padding-top:4rem;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
 
 
 

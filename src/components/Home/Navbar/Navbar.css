@@ -18,6 +18,8 @@
     font-weight: bolder;
     font-size: 1.2rem;
     border-bottom: solid 0.5px rgb(33, 33, 33,0.2);
+    z-index:2; 
+    /* Make Dismissible Alert as a flex and remove position relative */
 }
 
 .nav-pills{
