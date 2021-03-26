@@ -1,0 +1,8 @@
+.modalGroup{
+    margin-top: 0.5rem;
+    border-radius: 4px;
+    padding:2rem;
+    display:flex;
+    flex-wrap:wrap;
+    border: solid rgb(185, 183, 183) 1px;
+}

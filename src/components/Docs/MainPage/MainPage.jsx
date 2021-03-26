@@ -7,6 +7,7 @@ import ButtonPage from "./../Content/ButtonPage/ButtonPage"
 import FeaturesPage from "./../Content/FeaturesPage/FeaturesPage"
 import AlertPage from "./../Content/AlertPage/AlertPage"
 import AvatarPage from "./../Content/AvatarPage/AvatarPage"
+import ModalPage from "./../Content/ModalPage/ModalPage"
 import styles from "./MainPage.module.css"
 
 
@@ -26,6 +27,7 @@ export default function MainPage(){
             <Route path="/docs/alert" exact component={AlertPage} />
             <Route path="/docs/avatar" exact component={AvatarPage} />
             <Route path="/docs/button" exact component={ButtonPage} />
+            <Route path="/docs/modal" exact component={ModalPage} />
             
             
             </Switch>
