@@ -18,7 +18,7 @@ export default function Sidebar(){
             <h4 className={styles.sidelistHeading}> COMPONENTS</h4>
             <ul>
             <li><a href="/docs/alert">Alert</a></li>
-            <li><a href="/docs/avater">Avatar</a></li>  
+            <li><a href="/docs/avatar">Avatar</a></li>  
             <li><a href="/docs/box">Box</a></li>  
             <li><a href="/docs/button">Button</a></li>  
             <li><a href="/docs/card">Card</a></li>  
