@@ -5,6 +5,7 @@ import {BrowserRouter, Route,  Switch} from "react-router-dom"
 import GettingStarted from "./../Content/GettingStarted/GettingStarted"
 import ButtonPage from "./../Content/ButtonPage/ButtonPage"
 import FeaturesPage from "./../Content/FeaturesPage/FeaturesPage"
+import AlertPage from "./../Content/AlertPage/AlertPage"
 import styles from "./MainPage.module.css"
 
 
@@ -19,9 +20,11 @@ export default function MainPage(){
             <BrowserRouter>
             <Switch>
             
-            <Route path="/docs/" exact component={() => <GettingStarted />} />
-            <Route path="/docs/button/" component={() => <ButtonPage />} />
-            <Route path="/docs/features" component={() => <FeaturesPage />} />
+            <Route path="/docs/" exact component={GettingStarted} />
+            <Route path="/docs/features" exact component={FeaturesPage} />
+            <Route path="/docs/alert" exact component={AlertPage} />
+            <Route path="/docs/button" exact component={ButtonPage} />
+            
             
             </Switch>
             </BrowserRouter>
