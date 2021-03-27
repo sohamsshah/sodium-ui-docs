@@ -60,14 +60,14 @@ function ButtonPage() {
         <p className={themes.paragraph}>Boreded buttons can be created by passing the value <InlineCode>bordered</InlineCode>to the <InlineCode>kind</InlineCode> prop.
         </p>
         <div className={styles.buttonGroup}>
-        <Button variant="default" kind="bordered">Default </Button>
-        <Button variant="primary" kind="bordered">Primary </Button>
-        <Button variant="secondary" kind="bordered">Secondary </Button>
-        <Button variant="success" kind="bordered">Success</Button>
-        <Button variant="warning" kind="bordered">Warning </Button>
-        <Button variant="danger" kind="bordered">Danger </Button>
-        <Button variant="info" kind="bordered">Info </Button>
-        <Button variant="dark" kind="bordered">Dark </Button>
+            <Button variant="default" kind="bordered">Default </Button>
+            <Button variant="primary" kind="bordered">Primary </Button>
+            <Button variant="secondary" kind="bordered">Secondary </Button>
+            <Button variant="success" kind="bordered">Success</Button>
+            <Button variant="warning" kind="bordered">Warning </Button>
+            <Button variant="danger" kind="bordered">Danger </Button>
+            <Button variant="info" kind="bordered">Info </Button>
+            <Button variant="dark" kind="bordered">Dark </Button>
         </div>
         <CodeSection>
             {borderedButtons}  

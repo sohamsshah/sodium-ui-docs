@@ -11,6 +11,7 @@ import ModalPage from "./../Content/ModalPage/ModalPage"
 import ToastPage from "./../Content/ToastPage/ToastPage"
 import TypographyPage from "./../Content/TypographyPage/TypographyPage"
 import BoxPage from "./../Content/BoxPage/BoxPage"
+import PaperPage from "./../Content/PaperPage/PaperPage"
 import styles from "./MainPage.module.css"
 
 
@@ -31,6 +32,7 @@ export default function MainPage(){
             <Route path="/docs/avatar" exact component={AvatarPage} />
             <Route path="/docs/button" exact component={ButtonPage} />
             <Route path="/docs/modal" exact component={ModalPage} />
+            <Route path="/docs/paper" exact component={PaperPage} />
             <Route path="/docs/toast" exact component={ToastPage} />
             <Route path="/docs/box" exact component={BoxPage} />
             <Route path="/docs/typography" exact component={TypographyPage} />

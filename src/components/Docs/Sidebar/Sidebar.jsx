@@ -22,7 +22,8 @@ export default function Sidebar(){
             <li><a href="/docs/box">Box</a></li>  
             <li><a href="/docs/button">Button</a></li>  
             <li><a href="/docs/card">Card</a></li>  
-            <li><a href="/docs/input">Input</a></li>  
+            <li><a href="/docs/input">Input</a></li>
+            <li><a href="/docs/paper">Paper</a></li>  
             <li><a href="/docs/list">List</a></li>   
             <li><a href="/docs/modal">Modal</a></li>
             <li><a href="/docs/spinner">Spinner</a></li>
