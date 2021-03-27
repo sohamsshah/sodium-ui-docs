@@ -4,6 +4,8 @@ import {Toast} from "sodium-ui"
 import themes from "./../../Utils/Themes/Themes.module.css"
 import InlineCode from "./../../Utils/InlineCode/InlineCode"
 import CodeSection from "./../../Utils/CodeSection/CodeSection"
+import ContentNavigation from "./../../Utils/ContentNavigation/ContentNavigation"
+import {simpleToast, stackedToast} from "./ToastCodeSection";
 
 function ToastPage() {
     return (
@@ -22,6 +24,9 @@ function ToastPage() {
                 </Toast.Body>
             </Toast>
             </div>
+            <CodeSection>
+                {simpleToast}
+            </CodeSection>
 
             <h2 className={themes.heading2}>Stacked Toasts</h2>
             <p className={themes.paragraph}>You can also push stacked notifications using Toasts.</p>
@@ -43,6 +48,10 @@ function ToastPage() {
                 </Toast.Body>
             </Toast>
             </div>
+            <CodeSection>
+                {stackedToast}
+            </CodeSection>
+            <ContentNavigation prev={{name:"Spinner", link:"/docs/spinner"}} next={{name:"Typography", link:"/docs/typography"}} />
 
             
         </div>

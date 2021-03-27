@@ -1,5 +1,6 @@
 import React from "react"
 import themes from "./../../Utils/Themes/Themes.module.css"
+import ContentNavigation from "./../../Utils/ContentNavigation/ContentNavigation";
 
 export default function Features(){
     return(
@@ -29,7 +30,8 @@ export default function Features(){
             <h2 className={themes.heading2}>Contributing to Sodium-UI</h2>
             <p className={themes.paragraph}>Sodium UI is truly Open Source. Any sort of contribution to this project are highly appreciated. Read the <a className={themes.link} href="https://github.com/sohamsshah/sodium-ui/blob/main/CONTRIBUTING.md">Contributing Guideline</a> to learn more on how to setup development environment, propose bug fixes or improvements and how to build and test your changes to Sodium UI.</p>
 
-            
+            <ContentNavigation prev={{name:"Getting Started", link:"/docs/"}} next={{name:"Alert", link:"/docs/alert"}} />
+
             
             
         </div>

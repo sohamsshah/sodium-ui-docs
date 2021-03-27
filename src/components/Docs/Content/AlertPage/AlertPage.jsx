@@ -4,6 +4,7 @@ import InlineCode from "./../../Utils/InlineCode/InlineCode"
 import CodeSection from "./../../Utils/CodeSection/CodeSection"
 import {Alert} from "sodium-ui"
 import themes from "./../../Utils/Themes/Themes.module.css"
+import ContentNavigation from "./../../Utils/ContentNavigation/ContentNavigation";
 
 const simpleAlert = 
 `<Alert>This is a Default Alert</Alert>
@@ -60,16 +61,9 @@ function AlertPage() {
             <CodeSection>
                 {dismissibleAlert}
             </CodeSection>
-            <div className={themes.contentNavigation}>
-                <div className={themes.contentNavigationPrev}>
-                <p>Prev</p>
-                <button><a href="/docs/features">Features</a></button>
-                </div>
-                <div className={themes.contentNavigationNext}>
-                <p>Next</p>
-                <button><a href="/docs/avatar">Avatar</a></button>
-                </div>
-            </div>
+            <ContentNavigation prev={{name:"Features", link:"/docs/features"}} next={{name:"Avatar", link:"/docs/avatar"}} />
+
+            
         </div>
     )
 }

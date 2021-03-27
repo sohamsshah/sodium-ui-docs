@@ -2,12 +2,16 @@ import React from 'react'
 import styles from"./TypographyPage.module.css"
 import {Typography} from "sodium-ui"
 import themes from "./../../Utils/Themes/Themes.module.css"
+import {typography} from "./TypographyCodeSection"
+import InlineCode from "./../../Utils/InlineCode/InlineCode"
+import CodeSection from "./../../Utils/CodeSection/CodeSection"
+
 
 function TypographyPage() {
     return (
         <div>
             <h1 className={themes.heading1}>Typography</h1>
-            <h2 className={themes.lead}>Lead Text here</h2>
+            <h2 className={themes.lead}>Various predefined symmetric text styles are available in Sodium UI which can be handy to provide font style consistency all over the application.</h2>
             <h2 className={themes.heading2}>Styles</h2>
             <div className={styles.typographyGroup}>
                 <Typography variant="h1">
@@ -49,9 +53,10 @@ function TypographyPage() {
                 <Typography variant="outline-text">
                     outline text
                 </Typography>
-                
-
             </div>
+            <CodeSection>
+                {typography}
+            </CodeSection>
             
         </div>
     )

@@ -3,6 +3,7 @@ import styles from "./ButtonPage.module.css"
 import {Button} from "sodium-ui"
 import InlineCode from "./../../Utils/InlineCode/InlineCode"
 import CodeSection from "./../../Utils/CodeSection/CodeSection"
+import ContentNavigation from "./../../Utils/ContentNavigation/ContentNavigation";
 import themes from "./../../Utils/Themes/Themes.module.css"
 
 const filledButtons =
@@ -85,16 +86,8 @@ function ButtonPage() {
         <CodeSection>
             {floatingActionButtons}  
         </CodeSection>  
-        <div className={themes.contentNavigation}>
-                <div className={themes.contentNavigationPrev}>
-                <p>Prev</p>
-                <button><a href="/docs/box">Box</a></button>
-                </div>
-                <div className={themes.contentNavigationNext}>
-                <p>Next</p>
-                <button><a href="/docs/card">Card</a></button>
-                </div>
-            </div>
+        <ContentNavigation next={{name:"Card", link:"/docs/card"}} prev={{name:"Box", link:"/docs/box"}} />
+
         </>
     )
 }

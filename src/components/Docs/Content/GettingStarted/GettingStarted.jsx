@@ -2,6 +2,7 @@ import React from "react"
 import InlineCode from "./../../Utils/InlineCode/InlineCode"
 import CodeSection from "./../../Utils/CodeSection/CodeSection"
 import themes from "./../../Utils/Themes/Themes.module.css"
+import ContentNavigation from "./../../Utils/ContentNavigation/ContentNavigation";
 
 const importComponents = `
 import * as React from 'react';
@@ -35,6 +36,8 @@ export default function MainPage(){
               {importComponents}  
             </CodeSection>
             </div>
+            <ContentNavigation next={{name:"Features", link:"/docs/features"}} prev={{name:"Home", link:"/"}} />
+
             
         </div>
     )

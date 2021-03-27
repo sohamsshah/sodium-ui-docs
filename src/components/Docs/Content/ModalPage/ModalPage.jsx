@@ -2,6 +2,7 @@ import React from 'react'
 import styles from"./ModalPage.module.css"
 import InlineCode from "./../../Utils/InlineCode/InlineCode"
 import CodeSection from "./../../Utils/CodeSection/CodeSection"
+import ContentNavigation from "./../../Utils/ContentNavigation/ContentNavigation";
 import {Modal, Button} from "sodium-ui"
 import {useState} from "react"
 import themes from "./../../Utils/Themes/Themes.module.css"
@@ -115,6 +116,8 @@ function ModalPage() {
                 <button><a href="/docs/spinner">Spinner</a></button>
                 </div>
             </div>
+            <ContentNavigation prev={{name:"List", link:"/docs/list"}} next={{name:"Spinner", link:"/docs/spinner"}} />
+
         </div>
     )
 }

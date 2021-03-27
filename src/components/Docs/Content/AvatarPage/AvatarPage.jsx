@@ -2,6 +2,7 @@ import React from 'react'
 import styles from "./AvatarPage.module.css"
 import InlineCode from "./../../Utils/InlineCode/InlineCode"
 import CodeSection from "./../../Utils/CodeSection/CodeSection"
+import ContentNavigation from "./../../Utils/ContentNavigation/ContentNavigation";
 import {Avatar} from "sodium-ui"
 import themes from "./../../Utils/Themes/Themes.module.css"
 
@@ -85,6 +86,7 @@ function AvatarPage() {
             <CodeSection>
               {sizeAvatars}
             </CodeSection>
+            <ContentNavigation prev={{name:"Alert", link:"/docs/alert"}} next={{name:"Box", link:"/docs/box"}} />
             
         </div>
     )
