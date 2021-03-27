@@ -1,5 +1,5 @@
 import React from "react"
-import themes from "./../../Themes/Themes.module.css"
+import themes from "./../../Utils/Themes/Themes.module.css"
 
 export default function Features(){
     return(

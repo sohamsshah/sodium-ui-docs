@@ -1,7 +1,7 @@
 import React from 'react'
-import themes from "./../../Themes/Themes.module.css"
 import styles from"./TypographyPage.module.css"
 import {Typography} from "sodium-ui"
+import themes from "./../../Utils/Themes/Themes.module.css"
 
 function TypographyPage() {
     return (
