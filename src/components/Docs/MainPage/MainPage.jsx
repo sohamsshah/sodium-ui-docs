@@ -14,7 +14,8 @@ import BoxPage from "./../Content/BoxPage/BoxPage"
 import PaperPage from "./../Content/PaperPage/PaperPage"
 import SpinnerPage from "./../Content/SpinnerPage/SpinnerPage"
 import CardPage from "./../Content/CardPage/CardPage"
-
+import InputPage from "./../Content/InputPage/InputPage"
+import ListPage from "./../Content/ListPage/ListPage"
 import styles from "./MainPage.module.css"
 
 
@@ -39,6 +40,8 @@ export default function MainPage(){
             <Route path="/docs/toast" exact component={ToastPage} />
             <Route path="/docs/card" exact component={CardPage} />
             <Route path="/docs/box" exact component={BoxPage} />
+            <Route path="/docs/input" exact component={InputPage} />
+            <Route path="/docs/list" exact component={ListPage} />
             <Route path="/docs/typography" exact component={TypographyPage} />
             <Route path="/docs/spinner" exact component={SpinnerPage} />
 
