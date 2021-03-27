@@ -106,16 +106,6 @@ function ModalPage() {
             <CodeSection>
                 {largeModal}
             </CodeSection>
-            <div className={themes.contentNavigation}>
-                <div className={themes.contentNavigationPrev}>
-                <p>Prev</p>
-                <button><a href="/docs/list">List</a></button>
-                </div>
-                <div className={themes.contentNavigationNext}>
-                <p>Next</p>
-                <button><a href="/docs/spinner">Spinner</a></button>
-                </div>
-            </div>
             <ContentNavigation prev={{name:"List", link:"/docs/list"}} next={{name:"Spinner", link:"/docs/spinner"}} />
 
         </div>
