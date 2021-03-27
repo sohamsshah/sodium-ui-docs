@@ -1,5 +1,6 @@
 import React from "react"
 import "./Navbar.css"
+import {AiFillGithub} from "react-icons/ai";
 
 export default function Navbar(){
     return(
@@ -15,7 +16,7 @@ export default function Navbar(){
                    <a href="/docs">Docs</a>     
             </div>
             <div className="nav-link">
-                   <a href="https://github.com/sohamsshah/sodium-ui" rel="noreferrer" target="_blank">Github</a>     
+                   <a href="https://github.com/sohamsshah/sodium-ui" rel="noreferrer" target="_blank"><AiFillGithub style={{fontSize:"1.5rem"}} /></a>     
             </div>
             </div>
         </nav>
