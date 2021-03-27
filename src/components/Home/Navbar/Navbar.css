@@ -50,3 +50,7 @@
     color: var(--primary-color);
     letter-spacing: 2px; 
 }
+.nav-brand a{
+    color: inherit;
+    text-decoration: none;
+}

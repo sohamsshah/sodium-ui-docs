@@ -13,7 +13,7 @@ export default function Hero(){
             Web Component library to build elegant and <span>React</span>(ive) Apps.  
             </div>
             <div>
-                <button className={styles.hero__btn}> Get Started</button>
+                <button className={styles.hero__btn}> <a href="/docs">Get Started</a></button>
                 <span className={styles.hero__code}>$ npm i sodium-ui</span>
             </div> 
           </div>
