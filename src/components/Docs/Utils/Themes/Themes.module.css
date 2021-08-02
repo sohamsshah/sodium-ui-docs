@@ -17,7 +17,7 @@
 }
 
 .heading2{
-    font-size: 2rem;
+    font-size: 1.8rem;
     line-height: 1.2;
     margin-top:2rem;
     color: var(--general-color-dark);
@@ -52,6 +52,46 @@
     border-radius:4px;
     margin: 1rem 0;
     color: var(--general-color);
+}
+
+.list{
+    list-style-type: none;
+    margin-top:1rem;
+}
+
+.link{
+    color: var(--general-color-dark);
+}
+
+.contentNavigationNext p{
+    text-align: right;
+}
+
+
+.contentNavigation button{
+    background: none;
+    border:none;
+}
+
+.contentNavigation a{
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    text-decoration: none;  
+}
+
+.contentNavigation a:hover{
+    color: var(--primary-color);
+    text-decoration: underline;
+       
+}
+
+.contentNavigation{
+    color: var(--general-color-dark);
+    padding:2rem 0;
+    padding-top:4rem;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 

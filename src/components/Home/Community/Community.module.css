@@ -27,3 +27,18 @@
     padding-top:1rem;
 }
 
+.links{
+    display:flex;
+    justify-content: center;
+    margin-top:2rem;
+    font-size: 2rem;
+}
+
+.links a{
+    margin:1rem;
+    color:inherit;
+}
+
+.links a:hover{
+    color: black
+}

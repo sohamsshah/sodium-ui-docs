@@ -1,0 +1,10 @@
+.toastGroup{
+    margin-top: 0.5rem;
+    border-radius: 4px;
+    padding:2rem;
+    border: solid rgb(185, 183, 183) 1px;
+}
+
+.toastGroup div{
+    margin:0.5rem;
+}

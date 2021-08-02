@@ -1,19 +1,29 @@
 .main{
-    display: flex;
-    height:100vh;
-    
-    
+    display: flex; 
+    overflow-x: hidden;
 }
 
 .content{
     display:flex;
     flex-direction: column;
     justify-content: space-between;
-    width:100%;
+    min-width:80%;
     margin-left:300px;
+    border-left: solid 0.5px rgb(33, 33, 33,0.2);
+    
 }
 
 .mainContent{
-    padding: 0 2rem;
-    padding-right:25%;
+    padding: 0 4rem;
+    padding-right:20rem;
 }
+
+.footer{
+    padding:0;
+    margin-right:-100px;
+    text-align: center;
+}
+
+/* .footer > div{
+    padding-right:25rem;
+} */

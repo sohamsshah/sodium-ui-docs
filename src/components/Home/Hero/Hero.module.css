@@ -50,6 +50,11 @@
     cursor: pointer;
 }
 
+.hero__btn a{
+    color: inherit;
+    text-decoration: none;
+}
+
 .hero__btn:hover{
     background-color: var(--pink-tinge);
     color: var(--general-color);

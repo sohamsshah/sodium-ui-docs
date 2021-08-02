@@ -1,0 +1,11 @@
+.boxGroup{
+    margin-top: 0.5rem;
+    border-radius: 4px;
+    padding:2rem;
+    border: solid rgb(185, 183, 183) 1px;
+}
+
+.ul{
+    margin-top:1rem;
+    list-style-type: none;
+}

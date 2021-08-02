@@ -13,7 +13,6 @@
     top: 5.2rem !important;
     width: 300px;
     height: 100vh;
-    border-right: solid 0.5px rgb(33, 33, 33,0.2);
     overflow-y: auto;
     flex-shrink: 0;
     overscroll-behavior: contain;
@@ -24,7 +23,7 @@
 }
 
 .sidelist li a{
-    color: var(--general-color-dark);
+    color: var(--secondary-color);
     text-decoration: none;
     transition:0.2s;
     
@@ -38,7 +37,7 @@
 }
 
 .sidelist li:hover > a{
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     color:white;
     width:80%;
     padding:0.2rem 0.5rem;
